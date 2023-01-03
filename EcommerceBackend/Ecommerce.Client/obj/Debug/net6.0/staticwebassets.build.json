@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hcz2u8iGgqVHnIBW/uCK9appVrJnYtLX6hHgoKo18Ak=",
+  "Source": "Ecommerce.Client",
+  "BasePath": "_content/Ecommerce.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

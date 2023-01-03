@@ -1,0 +1,54 @@
+<!-- <app-sign-up></app-sign-up> -->
+
+<body>
+    <div class="mainContenet">
+        <form autocomplete="off" [formGroup]="loginForm">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-md text-white" style="border-radius: 15px;">
+                                <div class="p-5">
+                                    <h3 class=" mb-4">Login Here</h3>
+
+                                    <div class="col-md-6 mb-4 pb-2">
+                                        <div class="form-outline form-white">
+                                            <input type="text" class="form-control form-control-lg" name="username"
+                                                placeholder="User Name" formControlName="username"
+                                                [ngClass]="{'is-invalid': (loginForm.get('username')?.touched) && !loginForm.get('username')?.valid}"
+                                                required />
+                                            <span class="invalid-feedback">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-4 pb-2">
+                                        <div class="form-outline form-white">
+                                            <input type="text" class="form-control form-control-lg" name="password"
+                                                id="getPassword" placeholder="Password" formControlName="password"
+                                                [ngClass]="{'is-invalid': (loginForm.get('password')?.touched) && !loginForm.get('password')?.valid}"
+                                                required />
+                                            <span class="invalid-feedback">
+                                            </span>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="mb-4">
+                                        Are you new user?&nbsp;<a [routerLink]="['/signUpPage']">Sign Up Here</a>
+                                    </div>
+
+                                    <button type="button" class="btn btn-light btn-lg" data-mdb-ripple-color="dark"
+                                        type="submit" (click)="loginUser()" [disabled]="!loginForm.valid">Login</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

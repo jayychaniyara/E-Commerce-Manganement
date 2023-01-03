@@ -1,0 +1,12 @@
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\bin\Debug\net6.0\Ecommerce.Business.deps.json
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\bin\Debug\net6.0\Ecommerce.Business.dll
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\bin\Debug\net6.0\Ecommerce.Business.pdb
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.csproj.AssemblyReference.cache
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.AssemblyInfoInputs.cache
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.AssemblyInfo.cs
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.csproj.CoreCompileInputs.cache
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.dll
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\refint\Ecommerce.Business.dll
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\Ecommerce.Business.pdb
+C:\Users\jay.chaniyara\Documents\Project\Ecommerce Management\EcommerceBackend\Ecommerce.Business\obj\Debug\net6.0\ref\Ecommerce.Business.dll

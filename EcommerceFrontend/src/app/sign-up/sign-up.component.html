@@ -1,0 +1,160 @@
+<body>
+  <div class="mainContenet">
+    <form autocomplete="off" [formGroup]="registerForm">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="row">
+              <!-- <div class="col-lg-6 ">
+                  <img class="image" src="../../assets/draw2.svg">
+                </div> -->
+              <div class="col-md text-white" style="border-radius: 15px;">
+                <div class="p-5">
+                  <h3 class=" mb-4">Sign Up Here</h3>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4 pb-2 ">
+                      <div class="form-outline form-white">
+                        <input type="text" class="form-control form-control-lg" formControlName="firstName"
+                          placeholder="First Name"
+                          [ngClass]="{'is-invalid': (registerForm.get('firstName')?.touched) && !registerForm.get('firstName')?.valid}"
+                          required />
+                        <!-- <label class="form-label">First Name</label> -->
+                        <span class="invalid-feedback">
+                          <!-- <small *ngIf="registerForm.get('firstName')?.errors?.['required']">Please enter your First
+                            Name</small> -->
+                        </span>
+                      </div>
+
+                    </div>
+                    <div class="col-md-6 mb-4 pb-2 ">
+
+                      <div class="form-outline form-white">
+                        <input type="text" class="form-control form-control-lg" formControlName="lastName"
+                          placeholder="Last Name"
+                          [ngClass]="{'is-invalid': (registerForm.get('lastName')?.touched) && !registerForm.get('lastName')?.valid}"
+                          required />
+                        <!-- <label class="form-label">Last Name</label> -->
+                        <span class="invalid-feedback">
+                          <!-- <small *ngIf="registerForm.get('lastName')?.errors?.['required']">Please enter your Last
+                            Name</small> -->
+                        </span>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="mb-4 pb-2 ">
+                    <div class="form-outline form-white">
+                      <input type="text" class="form-control form-control-lg" name="email" formControlName="email"
+                        placeholder="Email Address"
+                        [ngClass]="{'is-invalid': (registerForm.get('email')?.touched) && !registerForm.get('email')?.valid}"
+                        required />
+                      <!-- <label class="form-label">Email &nbsp;</label> -->
+                      <span class="invalid-feedback">
+                        <!-- <small *ngIf="registerForm.get('email')?.errors?.['required']">Please enter your Email</small> -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="mb-4 pb-2">
+                    <div class="form-outline form-white">
+                      <input type="text" class="form-control form-control-lg" name="username" placeholder="User Name"
+                        formControlName="username"
+                        [ngClass]="{'is-invalid': (registerForm.get('username')?.touched) && !registerForm.get('username')?.valid}"
+                        required />
+                      <!-- <label class="form-label">User Name &nbsp;</label> -->
+                      <span class="invalid-feedback">
+                        <!-- <small *ngIf="registerForm.get('username')?.errors?.['required']">Please enter your User
+                          Name</small> -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4 pb-2">
+
+                      <div class="form-outline form-white">
+                        <input type="text" class="form-control form-control-lg" name="password" placeholder="Password"
+                          formControlName="password"
+                          [ngClass]="{'is-invalid': (registerForm.get('password')?.touched) && !registerForm.get('password')?.valid}"
+                          required />
+                        <!-- <label class="form-label">Password &nbsp;</label> -->
+                        <span class="invalid-feedback">
+                          <!-- <small *ngIf="registerForm.get('password')?.errors?.['required']">Please enter your Password
+                          </small> -->
+                        </span>
+                      </div>
+
+                    </div>
+                    <div class="col-md-6 mb-4 pb-2">
+
+                      <div class="form-outline form-white">
+                        <input type="text" id="confirmPassword" class="form-control form-control-lg"
+                          formControlName="confirmPassword" placeholder="Confirm Password"
+                          [ngClass]="{'is-invalid': (registerForm.get('confirmPassword')?.touched) && !registerForm.get('confirmPassword')?.valid}"
+                          required />
+                        <!-- <label class="form-label">Confirm Password</label> -->
+                        <span class="invalid-feedback">
+                          <!-- <small *ngIf="registerForm.get('confirmPassword')?.errors?.['required']">Please enter your
+                            Confirm Password
+                          </small> -->
+                        </span>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <input type="text" class="form-control form-control-lg" name="contactNumber"
+                          formControlName="contactNumber" placeholder="Contact Number"
+                          [ngClass]="{'is-invalid': (registerForm.get('contactNumber')?.touched) && !registerForm.get('contactNumber')?.valid}"
+                          required />
+                        <!-- <label class="form-label">Contact Number &nbsp;</label> -->
+                        <span class="invalid-feedback">
+                          <!-- <small *ngIf="registerForm.get('contactNumber')?.errors?.['required']">Please enter your
+                            Contact
+                            Number</small> -->
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mt-2">
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" id="rbtn" class="form-check-input" name="gender" formControlName="gender"
+                            value="Male">&nbsp;Male
+                        </label>
+                      </div>
+
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" id="rbtn" class="form-check-input" name="gender" formControlName="gender"
+                            value="Female">&nbsp;Female
+                        </label>
+                      </div>
+
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" id="rbtn" class="form-check-input" name="gender" formControlName="gender"
+                            value="Others">&nbsp;Others
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="btn btn-light btn-lg" data-mdb-ripple-color="dark" type="submit"
+                    (click)="registerUser()" [disabled]="!registerForm.valid">Register</button>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
